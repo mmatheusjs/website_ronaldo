@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R9</title>
+    <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+</head>
+
+<body>
+    <div id="main">
+        <div id="title" onclick="changeText()">
+            RONALDO
+        </div>
+
+        <header>
+            <nav class="navheader">
+                <a href="#historia">Sobre</a>
+                <a href="#carreira">Linha do Tempo</a>
+                <a href="#nowadays">Vida atual</a>
+                <a href="#galeria">Imagens</a>
+            </nav>
+         </header>
+
+         <div id="img-div">
+         
+              <img class="fotos" onclick="changeImg()" src="imagens/ronaldo1.jpg" 
+              alt="ronaldo-selecao">
+
+        </div>
+
+         <div class="container-content" id="historia">
+             <h1 class="titulo1"> Quem foi Ronaldo?</h1>
+             <p>Ronaldo Luís Nazário de Lima, mais conhecido como Ronaldo Fenômeno
+                nasceu no dia 18 de setembro de 1976, na cidade do Rio de Janeiro. Filho de
+                Nélio Nazário de Lima e Sônia dos Santos Barata, Ronaldo teve uma infância
+                muito pobre, mas seu sonho de jogar futebol sempre sustentou sua esperança de 
+                vencer na vida, conquistando assim diversos títulos e 3 premiações de Melhor do Mundo.</p>
+         </div>
+
+         <div class="container-content" id="carreira">
+            <h1 class="titulo1">Carreira</h1>
+                    <div class="timeline">
+                        <h2 class="titulo2">1993/1994 - Cruzeiro</h2>
+                        <p>O time que o revelou para o mundo foi o Cruzeiro, como jogador da equipe mineira, aos 16 anos fazia sua estreia na categoria profissional,
+                        em 46 partidas disputadas, alcançou o expressivo número de 44 gols, o que o levou a 
+                        convocação para a Copa do Mundo de 1994, ano do seu primeiro título mundial.</p>
+                    </div>
+
+                    <div class="timeline">
+                        <h2 class="titulo2">1994/1996 - PSV</h2>
+                        <p>Após a Copa de 94, Ronaldo assinou um contrato com o PSV da Holanda e durante
+                            os anos 1994-1996 teve um desempenho extraordinário, anotando 54 gols em 57 partidas.</p>
+                    </div>
+
+                    <div class="timeline">
+                        <h2 class="titulo2">1996/1997 - Barcelona</h2>
+                        <p>Em seguida, transferido para o Barcelona, continuou marcando muitos gols e fazendo
+                            jogadas inacreditáveis, recebendo assim diversos prêmios, sendo o principal o de Melhor
+                            jogador do Mundo, tudo isso em menos de 2 anos, 1996-1997.</p>
+                    </div>
+
+                    <div class="timeline">
+                        <h2 class="titulo2">1997/2002 - Internazionale</h2>
+                        <p>Seu próximo destino foi a Itália, no clube Internazionale de Milão, onde jogou por 5 anos,
+                            de 97 a 2002, faturou mais dois prêmios de melhor do mundo (1997 e 2002), foi campeão do mundo
+                            pela seleção em 2002 e reconhecido como "Fenômeno" pelo mundo por conta de sua genialidade.</p>
+                        </div>
+                    
+                    <div class="timeline">
+                        <h2 class="titulo2">2002/2008 - Real Madrid e Milan</h2>
+                        <p>Seus dois útlimos clubes europeus foram o Real Madrid, clube onde não conquistou
+                            títulos expressivos, permanecendo la de 2002 a 2007, e o Milan, onde jogou por apenas 20 jogos.</p>
+                    </div>
+            </div>
+            
+            <div class="container-content" id="final-carreira">
+                <h1 class="titulo1">Final da carreira</h1>
+                <p>Apesar de ter sido um dos maiores craques da história, a carreira do Fenômeno foi marcada
+                    por sérias contusões no ligamento do Joelho, o que o tirou por um bom tempo dos gramados.
+                    Outro fator que influenciou em seu declínio, foi o diagnóstico do Hipotireoidismo,
+                    o que o fez ganhar muito peso, atrapalhando suas performances.
+                    
+                    Ronaldo finalizou sua carreira no Corinthians, clube onde conquistou o Campeonato Paulista e
+                    Copa do Brasil, aposentando-se no ano de 2011.</p>
+            </div>
+
+            <div class="container-content" id="nowadays">
+                <h1 class="titulo1"> Vida atual</h1>
+                <p>Hoje, Ronaldo é um empresário no ramo de marketing esportivo e Presidente do Clube
+                    Real Valladolid.</p>
+                <p>Clique no botão abaixo para conhecer a empresa do Ronaldo</p>
+                    <a href="https://ronaldo.academy/?gclid=CjwKCAiAz4b_BRBbEiwA5XlVVoAc2KaMsNHIL76D_EY1DN75OTWclq9BsYq9lCnbw2JINvB9p5Oq0RoCfHUQAvD_BwE"
+                     target="_blank"><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" id="link-ronaldo">
+                        Ronaldo
+                    </button></a>
+            </div>
+
+            <div class = "container-galeria" id="galeria">
+                <img src="imagens/psv.jpg" class="galeriafoto">
+                <img src="imagens/brotherhood.jpg" class="galeriafoto">
+                <img src="imagens/inter.jpg" class="galeriafoto">
+                <img src="imagens/realmadrid.jpg" class="galeriafoto">
+                <img src="imagens/milan.jpg" class="galeriafoto">
+                <img src="imagens/corinthians.jpg" class="galeriafoto">
+            </div> 
+
+            <footer class="footer">
+                <p class="data"></p> 
+            </footer>
+                     
+         </div>
+
+    
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+
+
+
+</html>
